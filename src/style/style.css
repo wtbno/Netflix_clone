@@ -19,13 +19,14 @@ header .container {
   align-items: center;
   justify-content: space-between;
 }
+.container {
+  margin-left: 20px;
+}
 
 header .logo {
-  color: var(--vermelho);
-  font-family: "Arial Black";
-  font-size: 40px;
-  margin-left: 40px;
-  margin-top: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+  cursor: pointer;
 }
 
 header nav a {
@@ -44,12 +45,16 @@ header nav a:hover {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("../img/maxs.jpeg");
-  height: 500px;
+  height: 600px;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.filme-principal .container {
+  width: 70%;
 }
 
 .descript {
@@ -72,14 +77,15 @@ header nav a:hover {
   margin-right: 15px;
   font-size: 12px;
   cursor: pointer;
+  margin-left: 15px;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: white;
   color: #141414;
-  transition: .5s ease all;
+  transition: 0.5s ease all;
 }
 
-.btn i{
-  margin-right: 5px;
+.btn i {
+  margin-right: 15px;
 }
