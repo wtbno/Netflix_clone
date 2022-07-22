@@ -15,10 +15,9 @@ body {
 }
 
 header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header .logo {
@@ -37,4 +36,50 @@ header nav a {
 
 header nav a:hover {
   color: #fff;
+}
+
+/*Conteúdo principal*/
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/maxs.jpeg");
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.descript {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #141414;
+  transition: .5s ease all;
+}
+
+.btn i{
+  margin-right: 5px;
 }
